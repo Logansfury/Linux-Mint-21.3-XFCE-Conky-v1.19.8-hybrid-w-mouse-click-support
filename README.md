@@ -11,13 +11,13 @@ STEP 2) Extract the directory conky-1.19.8 from the .zip file and move to:
 
 STEP 3) Install required build tools:
 
-sudo apt update
+```sudo apt update
 sudo apt install -y g++ cmake pkg-config gperf \
 libx11-dev libxinerama-dev libxft-dev libxml2-dev \
 libncurses5-dev libcurl4-openssl-dev liblua5.3-dev \
 librsvg2-dev libimlib2-dev libxdamage-dev libxext-dev \
 libxfixes-dev libasound2-dev libpulse-dev libiw-dev \
-libpam0g-dev libdrm-dev libglib2.0-dev libxnvctrl-dev
+libpam0g-dev libdrm-dev libglib2.0-dev libxnvctrl-dev```
 
 STEP 4) Create a build folder:
 
