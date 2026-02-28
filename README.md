@@ -31,7 +31,8 @@ cd build
 
 STEP 5) Configure with dependencies:
 
-```cmake .. \
+```
+  cmake .. \
   -DBUILD_X11=ON \
   -DBUILD_CAIRO=ON \
   -DBUILD_LUA_CAIRO=ON \
