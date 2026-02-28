@@ -22,33 +22,37 @@ libpam0g-dev libdrm-dev libglib2.0-dev libxnvctrl-dev
 
 STEP 4) Create a build folder:
 
-mkdir build
-
-cd build
+```mkdir build
+```
+```cd build
+```
 
 STEP 5) Configure with dependencies:
 
-cmake .. \
+```cmake .. \
   -DBUILD_X11=ON \
   -DBUILD_CAIRO=ON \
   -DBUILD_LUA_CAIRO=ON \
   -DBUILD_LUA_IMLIB2=OFF \
   -DBUILD_IMLIB2=ON \
   -DCMAKE_BUILD_TYPE=Release
+```
 
 STEP 6) Build & Install:
 
-make -j$(nproc)
-
-sudo make install
+```make -j$(nproc)
+```
+```sudo make install
+```
 
 STEP 7) Verify:
 
-conky -v
+```conky -v
+```
 
 you should see output like this:
 
-logansfury@M51AD:~$ conky -v
+```logansfury@M51AD:~$ conky -v
 
 conky 1.19.8_pre compiled for Linux x86_64
 
@@ -98,3 +102,4 @@ Package library path: /usr/local/lib/conky
   * Maximum netdevices: 256
   * Maximum text size: 16384
   * Size text buffer: 256
+```
