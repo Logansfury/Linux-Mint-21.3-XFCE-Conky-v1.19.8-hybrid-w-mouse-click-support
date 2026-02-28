@@ -48,6 +48,7 @@ conky -v
 you should see output like this:
 
 logansfury@M51AD:~$ conky -v
+
 conky 1.19.8_pre compiled for Linux x86_64
 
 Compiled in features:
