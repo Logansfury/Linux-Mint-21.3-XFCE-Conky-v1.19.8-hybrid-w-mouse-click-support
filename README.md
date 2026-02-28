@@ -42,14 +42,17 @@ STEP 5) Configure with dependencies:
 
 STEP 6) Build & Install:
 
-```make -j$(nproc)
 ```
-```sudo make install
+make -j$(nproc)
+```
+```
+sudo make install
 ```
 
 STEP 7) Verify:
 
-```conky -v
+```
+conky -v
 ```
 
 you should see output like this:
