@@ -22,9 +22,11 @@ libpam0g-dev libdrm-dev libglib2.0-dev libxnvctrl-dev
 
 STEP 4) Create a build folder:
 
-```mkdir build
 ```
-```cd build
+mkdir build
+```
+```
+cd build
 ```
 
 STEP 5) Configure with dependencies:
