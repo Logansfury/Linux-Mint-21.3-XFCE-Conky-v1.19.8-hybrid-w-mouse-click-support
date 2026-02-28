@@ -22,6 +22,7 @@ libpam0g-dev libdrm-dev libglib2.0-dev libxnvctrl-dev
 STEP 4) Create a build folder:
 
 mkdir build
+
 cd build
 
 STEP 5) Configure with dependencies:
@@ -37,6 +38,7 @@ cmake .. \
 STEP 6) Build & Install:
 
 make -j$(nproc)
+
 sudo make install
 
 STEP 7) Verify:
